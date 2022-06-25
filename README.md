@@ -38,7 +38,6 @@ username occupied
 Failed to registered
 ```
 
-<br>
 
 ### Request: Login
 ![GET](https://badgen.net/badge/Method/GET/yellow)<span style="padding:10px">**/login**</span>
@@ -67,7 +66,6 @@ already login
 ```json
 already login
 ```
-<br>
 
 ### Request: All news
 ![GET](https://badgen.net/badge/Method/GET/yellow)<span style="padding:10px">**/allnews**</span>
@@ -82,7 +80,7 @@ already login
     },
     {...},...
 ```
-<br>
+
 
 ### Request: News by Id
 ![GET](https://badgen.net/badge/Method/GET/yellow)<span style="padding:10px">**/news/'<int:file_id>'**</span>
@@ -103,7 +101,7 @@ already login
         'Messsage':'id not found'
     }
 ```
-<br>
+
 
 ### Request: edit,deleted
 ![PUT](https://badgen.net/badge/Method/PUT/blue)<span style="padding:10px">**/(edit/deleted)/'<int:file_id>'**</span>
@@ -143,7 +141,7 @@ MUST LOGIN
         "Error":"Already archived"
     }
 ```
-<br> 
+
 
 ### Request: Upload
 ![GET](https://badgen.net/badge/Method/GET/yellow)<span style="padding:10px">**/file**</span>
@@ -172,7 +170,7 @@ Must Login
 ```json
 output -> file
 ```
-<br>
+
 ### Request: Logout
 ![GET](https://badgen.net/badge/Method/GET/yellow)<span style="padding:10px">**/logout'**</span>
 
@@ -188,8 +186,6 @@ logout success
 Not Login Yet
 ```
 
-<br>
-<br>
 ## Simple Cloud Storage:
 1.  Regis 
 2.  Login
@@ -221,7 +217,6 @@ username occupied
 Failed to registered
 ```
 
-<br>
 
 ### Request: Login
 ![GET](https://badgen.net/badge/Method/GET/yellow)<span style="padding:10px">**/login**</span>
@@ -250,7 +245,6 @@ already login
 ```json
 already login
 ```
-<br>
 ### Request: Logout
 ![GET](https://badgen.net/badge/Method/GET/yellow)<span style="padding:10px">**/logout'**</span>
 
@@ -265,7 +259,6 @@ logout success
 ```json
 Not Login Yet
 ```
-<br>
 ### Request: Upload
 ![POST](https://badgen.net/badge/Method/GET/yellow)<span style="padding:10px">**/file**</span>
 ```json
